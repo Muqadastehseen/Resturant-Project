@@ -1,0 +1,1488 @@
+.search-form {
+  display: none; /* Initially hide the search form */
+  position: relative;
+}
+
+.header.active .search-form.active {
+  display: block; /* Display the search form only when both the header and search form have the active class */
+}
+
+#search-box {
+  padding-right: 30px; 
+}
+
+.header {
+  height: 100px;
+  width: 100%; 
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  background-color: black;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; 
+  position: fixed;
+}
+
+.logo {
+  margin-left: -30px; /* Adjusted margin for the logo */
+}
+
+img {
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 80px; /* Adjusted margin for the navbar links */
+}
+
+.navbar a {
+  margin-right: 40px; 
+  color: aliceblue;
+}
+
+.navbar a:hover {
+  color: #ffc107;
+}
+
+.icons {
+  margin-right: 90px; /* Adjusted margin for the icons */
+}
+
+.fa-search {
+  color: white;
+  cursor: pointer;
+  font-size: medium;
+  margin-right: 40px; 
+}
+#new{
+  margin-right:40px;
+}
+
+#new:hover {
+  color: #ffc107;
+}
+
+.header.active {
+  display: block;
+}
+
+i #menu-btn {
+  margin-right: 50px; /* Adjusted margin for the menu button */
+  display: inline-block;
+}
+
+.fas.fa-search {
+  position: absolute;
+  top: 50%;
+  right: 24px; 
+  transform: translateY(-50%);
+  color: #fdf9f9; 
+  pointer-events: none; 
+}
+.home {
+  /* background-color: #e60e0e; */
+  padding: 60px;
+  background-image: url("https://kupinica.com/wp-content/uploads/2014/05/a-1200x478.jpg");
+  background-size: cover;
+  /* background: linear-gradient(90deg,rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)); */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+
+  
+}
+
+.home.content {
+ max-width: 60rem;
+  margin-top: 100px;
+  padding-right: 900px;
+  font-size: 60px;
+
+}
+.home span{
+  color:#ffc107;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 60px;
+  color: #fcf4f4;
+  margin-right: 280px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.home .content h3 span {
+  color: orange; /* Change the color of the span */
+  margin: 0 10px;
+}
+.content {
+  color: #eee;
+  font-size: 1rem;
+  font-weight: lighter;
+  /* line-height: 1.8;
+  padding: 1rem 0; */
+  margin-top:10px;
+}
+
+.container p {
+  white-space: pre-line; /* This allows for line breaks to be rendered */
+}
+div .content a.btn {
+  display: inline-block; /* Make the button behave like an inline element */
+  padding: 5px 10px; /* Add padding to provide space around the text */
+  color: white;
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 160px;
+  background-color: orange;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255); /* Add a border around the button */
+}
+                                    /* /////////////////////////////////// About us */
+.about .row{
+display: flex;
+align-items: center;
+background-image: url("https://img.freepik.com/premium-photo/asian-food-background-with-various-ingredients-table_9493-17758.jpg?w=1060");
+flex-wrap: wrap;
+background-size: cover;
+height: 1000px;
+margin-top: -120PX;
+
+height:650px;
+
+}
+span{
+margin-left: 590px;
+font-size: 40px;
+color: WHITE;
+margin-top: 90px;
+
+
+}
+h1{
+color: #ffc107;
+font-size: 40px;
+margin-top: -50px;
+
+
+}
+.about .row .section{
+  padding: 2px;
+  flex: 1 1 45rem;
+  margin-left: 540px;
+  }
+
+
+.about .row .content{
+padding: 2px;
+flex: 1 1 4rem;
+margin-left: 500px;
+
+}
+.about .row .content h1{
+
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 170px;
+  
+}
+
+.about .row .content p{
+font-size: 1px;
+color: #fff;
+padding: 1px;
+line-height: 1.8;
+font-size: 17px;
+margin-left: 180px;
+margin-top: 40px;
+}
+#btn1{
+padding: 10px 20px; 
+color:black;
+font-size: 20px;
+background-color:orange ; 
+border: none; 
+border-radius: 2px solid white; 
+cursor: pinter; 
+width: 150px;
+text-align: center; 
+display: inline-block;
+text-decoration: none; 
+margin-left: 300px;
+margin-top: 10px;
+}
+
+
+#btn1:hover {
+background-color:#ffc107 ;
+}
+                                       /* ///////////////////////////////////    Menu */
+.heading1{
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-size: 30px;
+margin-left: 20px;
+
+}
+.heading1 span{
+color: #ffc107;
+text-transform: uppercase;
+margin-left: 5px;
+}
+
+#bb{
+height: 900px;
+border-style: solid;
+border-width: 2px;
+background-color: rgb(3, 3, 3);
+margin-top: 0px;
+}
+
+
+h6{
+font-size: 3rem;
+margin-left: 560px;
+color: #fff;
+margin-top: 55px;
+}
+.heading3 span{
+color:#ffc107;
+font-size:3rem;
+margin-left: 5px;
+
+}
+#r1{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 260px;
+width: 300px;
+margin-left: 90px;
+margin-top: -10px;
+}
+#img1{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/menu-1.a0b16a8f9d4b6cca2862.png");
+background-size: 40% 40%; 
+margin-top: 15px;
+background-size: cover;
+margin-left: 50px;
+
+
+
+}
+#hh{
+margin-top: 10px;
+font-size: 20px;
+margin-left: 60px;
+color: #fff;
+
+}
+#p1{
+margin-left: 113px;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+font-weight: bold;
+}
+#btnn{
+margin-left: 18px;
+color: black;
+margin-top: 50px;
+}
+#btnn1{
+border-width: 2px;
+background-color: #ffc107;
+height: 30px;
+width: 150px;
+margin-top: 1px;
+margin-left: 70px;
+
+}
+
+
+
+
+
+#r2{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 260px;
+width: 300px;
+margin-left: 470px;
+margin-top: -264px;
+}
+#img2{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/menu-2.24f3692350f004b8004a.png");
+background-size: 40% 40%; 
+background-size: cover;
+margin-top: 15px;
+margin-left: 50px;
+
+}
+#hh2{
+margin-top: 10px;
+font-size: 20px;
+margin-left: 60px;
+color: #fff;
+
+}
+#p2{
+margin-left: 113px;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+font-weight: bold;
+}
+#btnn2{
+margin-left: 18px;
+color: black;
+}
+#btn2{
+  border-width: 2px;
+  background-color: #ffc107;
+  height: 30px;
+  width: 150px;
+  margin-top: 1px;
+  margin-left: 70px;
+  
+  }
+
+
+
+#r3{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 260px;
+width: 300px;
+margin-left: 850px;
+margin-top: -264px;
+}
+#img3{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/menu-3.1bedaa57884042844ded.png");
+border-radius: 0%;
+margin-top: 15px;
+margin-left: 50px;
+
+}
+#hh3{
+margin-top: 10px;
+font-size: 20px;
+margin-left: 60px;
+color: #fff;
+
+}
+#p3{
+margin-left: 113px;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+font-weight: bold;
+}
+#btnn3{
+  border-width: 2px;
+  background-color: #ffc107;
+  height: 30px;
+  width: 150px;
+  margin-top: 1px;
+  margin-left: 70px;
+  
+  }
+
+#btn3{
+border-width: 2px;
+background-color: #ffc107;
+height: 30px;
+width: 150px;
+margin-left: 70px;
+margin-top: 10px;
+}
+
+
+
+
+
+#r4{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 260px;
+width: 300px;
+margin-left: 90px;
+margin-top: 50px;
+}
+#img4{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz5mxmjlGSdPwsmcWJbswBn9El8RKyteN07BoE70SLedsKSJG75aiISlz4biSgN6IoWSs&usqp=CAU);
+border-radius: 0%;
+margin-top: 15px;
+margin-left: 50px;
+
+}
+#hh4{
+margin-top: 10px;
+font-size: 20px;
+margin-left: 60px;
+color: #fff;
+
+}
+#p4{
+margin-left: 113px;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+font-weight: bold;
+}
+#btnn4{
+margin-left: 18px;
+color: black;
+}
+#btn4{
+  border-width: 2px;
+  background-color: #ffc107;
+  height: 30px;
+  width: 150px;
+  margin-top: -1px;
+  margin-left: 70px;
+  
+  }
+
+
+#r5{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 260px;
+width: 300px;
+margin-left: 470px;
+margin-top: -263px;
+}
+#img6{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/menu-6.1e627e81ea9cffd96843.png");
+border-radius: 0%;
+margin-top: 15px;
+margin-left: 50px;
+
+}
+#hh5{
+margin-top: 10px;
+font-size: 20px;
+margin-left: 60px;
+color: #fff;
+
+}
+#p5{
+margin-left: 113px;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+font-weight: bold;
+}
+#btnn5{
+margin-left: 18px;
+color: black;
+}
+#btnn5:hover{
+color: #ffc107;
+
+}
+#btn5{
+  border-width: 2px;
+  background-color: #ffc107;
+  height: 30px;
+  width: 150px;
+  margin-top: 1px;
+  margin-left: 70px;
+  
+  }
+
+
+
+
+
+
+
+
+#r6{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 260px;
+width: 300px;
+margin-left: 850px;
+margin-top: -263px;
+}
+#img6{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/menu-6.1e627e81ea9cffd96843.png");
+border-radius: 0%;
+background-size: cover;
+margin-top: 10px;
+margin-left: 50px;
+
+}
+#hh6{
+margin-top: 10px;
+font-size: 20px;
+margin-left: 60px;
+color: #fff;
+
+}
+#p6{
+margin-left: 113px;
+color: #fff;
+font-size: 20px;
+margin-top: 10px;
+font-weight: bold;
+}
+#btnn6{
+margin-left: 18px;
+color: #100707;
+}
+#btn6{
+  border-width: 2px;
+  background-color: #ffc107;
+  height: 30px;
+  width: 150px;
+  margin-top: 1px;
+  margin-left: 70px;
+  
+  }
+/* ///////////////////////////////////////////////                       Our products */
+#divp{
+height: 700px;
+border-style: solid;
+border-width: 2px;
+background-color: black;
+margin-top: 1px;
+}
+
+#h5{
+font-size: 35px;
+margin-left: 580px;
+color: #fff;
+margin-top:70px;
+}
+.heading5 span{
+color:#ffc107;
+font-size: 35px;
+margin-left: 11px;
+
+}
+#s1{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 430px;
+width: 270px;
+margin-left: 105px;
+margin-top: 60px;
+
+}
+#s1:hover{
+background-color: #443300;
+}
+#ss{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/product-1.ca74090c36866e811ed8.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 130px;
+width: 150px;
+border-radius: 0%;
+margin-top: 50px;
+margin-left: -92px;
+}
+#hs{
+font-size: 20px;
+margin-left: -78px;
+color: #fff;
+margin-top: 30px;
+
+font-weight: bold; /* Make the text bold */
+text-align: center; /* Center-align the text */
+white-space: nowrap; /* Prevent the text from wrapping */
+
+text-overflow: ellipsis; /* Show an ellipsis (...) if text overflows */
+width: 100%; /* Optionally set a width to control the container size */
+}
+#hs1{
+margin-left: -48px;
+margin-top: 25px;
+font-size: 24px;
+color: #fff;
+}
+
+#li1{
+color: #ffc107;
+text-align: center;
+margin-right: -99px;
+}
+#li1:hover{
+color: #fff;
+}
+#li2{
+color: #ffc107;
+margin-left:25px;
+margin-top: -16px;
+}
+#li2:hover{
+color: #fff;
+}
+#li3{
+color: #ffc107;
+margin-right: 2px;
+margin-top: -12px;
+}
+#li3:hover{
+color: #fff;
+}
+#li4{
+color: #ffc107;
+margin-right:20px;
+
+margin-top: -64px;
+}
+#li4:hover{
+color: #fff;
+}
+
+
+
+#s2{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 82px;
+margin-top: 30px;
+
+}
+
+#s3{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 117px;
+margin-top: -30px;
+
+}
+#s4{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 152px;
+margin-top: -31px;
+
+}
+#k1{
+font-size: 21px;
+margin-right: -36px;
+margin-top: 5px;
+
+}
+#k2{
+font-size: 21px;
+margin-right: -35px;
+margin-top: -22px;
+
+}
+#k3{
+font-size: 22px;
+margin-right: -33px;
+margin-top: -25px;
+
+}
+#r00{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 430px;
+width: 270px;
+margin-left: 380px;
+margin-top: -60px;
+}
+#r00:hover{
+background-color: #443300;
+}
+#r11{
+border-width: 2px;
+border-style: solid ;
+color: #ffc107;
+height: 430px;
+width: 270px;
+margin-left: 760px;
+margin-top: -433px;
+}
+#r11:hover{
+background-color: #443300;
+}
+#n1{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 82px;
+margin-left: 82px;
+margin-top: 30px;
+
+
+}
+#n2{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+
+margin-left: 117px;
+margin-top: -31px;
+
+}
+
+#n3{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 152px;
+margin-top: -31px;
+}
+
+#n11{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 82px;
+margin-left: 82px;
+margin-top: 30px;
+
+
+}
+#n22{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+
+margin-left: 117px;
+margin-top: -31px;
+
+}
+
+#n33{
+border-width: 2px;
+border-style: solid ;
+height: 27px;
+width: 28px;
+margin-left: 152px;
+margin-top: -31px;
+}
+#k11{
+font-size: 21px;
+margin-right: -36px;
+margin-top: -282px;
+
+}
+#k12{
+font-size: 21px;
+margin-right: -35px;
+margin-top: -282px;
+
+}
+#k13{
+font-size: 22px;
+margin-right: -33px;
+margin-top: -282px;
+
+}
+
+
+#k111{
+font-size: 21px;
+margin-right: -36px;
+margin-top: -288px;
+
+}
+#k222{
+font-size: 21px;
+margin-right: -35px;
+margin-top: -288px;
+
+}
+#k333{
+font-size: 22px;
+margin-right: -33px;
+margin-top: -288px;
+
+}
+#ss5{
+background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/product-3.80abee240885f3eabce3.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 130px;
+width: 150px;
+border-radius: 0%;
+margin-bottom: 40px;
+margin-left: 55px;
+margin-top: 40px;
+}
+#ss6{
+background-image: url("data:image/jpeg;base64,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");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 130px;
+width: 150px;
+border-radius: 0%;
+margin-top: 40px;
+margin-left: 60px;
+}
+#l{
+margin-left: 55px;
+margin-top: -5px;
+color: #fff;
+font-size: 20px;
+
+}
+#ll{
+margin-left: 75px;
+margin-top: 35px;
+color:white;
+font-size: 20px;
+}
+#l1{
+color: #ffc107;
+text-align: center;
+margin-right: 2px;
+margin-top: -12px;
+}
+#l1:hover{
+color: #fff;
+}
+#l2{
+color: #ffc107;
+margin-right: -73px;
+margin-top: -16px;
+}
+#l2:hover{
+color: #fff;
+}
+#l3{
+color: #ffc107;
+margin-left: 25px;
+margin-top: -16px;
+}
+#l3:hover{
+color: #fff;
+}
+#l4{
+color: #ffc107;
+margin-left: 155px;
+margin-top: -16px;
+}
+#l4:hover{
+color: #fff;
+}
+
+#li11{
+  color: #ffc107;
+  
+  text-align: center;
+  margin-left: 99px;
+  }
+  #li11:hover{
+  color: #fff;
+  }
+  #li12{
+  color: #ffc107;
+  margin-right:-90px;
+  margin-top: -16px;
+  }
+  #li12:hover{
+  color: #fff;
+  }
+  #li13{
+  color: #ffc107;
+  margin-left:90px;
+  margin-top: -12px;
+  }
+  #li13:hover{
+  color: #fff;
+  }
+  #li14{
+  color: #ffc107;
+  margin-left:1px;
+  
+  margin-top: -65px;
+  }
+  #li14:hover{
+  color: #fff;
+  }
+  
+
+
+
+#i1{
+color: #ffc107;
+text-align: center;
+margin-left: 96px;
+margin-top: -9px;
+}
+
+#i1:hover{
+color: #fff;
+}
+#i2{
+color: #ffc107;
+margin-left: 2px;
+margin-top:-16px;
+}
+#i2:hover{
+color: #fff;
+}
+#i3{
+color: #ffc107;
+margin-bottom: -90px;
+
+margin-top: -250px;
+}
+#i3:hover{
+color: #fff;
+}
+#i4{
+color: #ffc107;
+margin-left: 3px;
+
+margin-top: -16px;
+}
+#i4:hover{
+color: #fff;
+}
+#hs11{
+margin-left: 105px;
+margin-top: 20px;
+font-size: 24px;
+color: #fff;
+}
+#hs111{
+margin-left: 107px;
+margin-top: 20px;
+font-size: 24px;
+color: #fff;
+}
+
+/* Review */
+
+#rd{
+  height: 680px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: black;
+    margin-top: 2px;
+  
+}
+
+
+.head6{
+    font-size: 35px;
+    margin-left: 490px;
+    color: #fff;
+    margin-top: 32px;
+  }
+  .head6 span{
+    color:#ffc107;
+    font-size: 35px;
+    margin-left: 5px;
+
+  }
+  #div1{
+    border-width: 2px;
+      border-style: solid ;
+      color: #ffc107;
+      height: 475px;
+      width: 300px;
+      margin-left: 90px;
+      margin-top: 60px;
+     
+  }
+  #div1:hover{
+    background-color: #443300;
+  }
+  #div2{
+    border-width: 2px;
+      border-style: solid ;
+      color: #ffc107;
+      height: 475px;
+      width: 300px;
+      margin-left: 485px;
+      margin-top: -479px;
+  }
+  #div2:hover{
+    background-color: #443300;
+  }
+  #div3{
+    border-width: 2px;
+      border-style: solid ;
+      color: #ffc107;
+      height: 475px;
+      width: 300px;
+      margin-left: 880px;
+      margin-top: -477px;
+  }
+  #div3:hover{
+    background-color: #443300;
+  }
+   #c1{
+    font-size: 54px;
+    margin-top: 30px;
+    margin-left: 120px;
+    color: #ffc107; 
+  }
+
+  #c1:hover{
+    color: #fff;
+  }
+  #c2{
+    font-size: 54px;
+    margin-top: 30px;
+    margin-left: 120px;
+    color: #ffc107;
+
+
+  }
+  #c2:hover{
+    color: #fff;
+  }
+  #c3{
+    font-size: 54px;
+    margin-top: 30px;
+    margin-left: 120px;
+    
+    color: #ffc107;
+
+
+  }
+  #c3:hover{
+    color: #fff;
+  }
+   .paraa{
+    color: #fff;
+    margin-top:40px ;
+    margin-left: 30px;
+    font-size: 16px;
+
+  }
+  .picc{
+    border-radius: 50%;
+    height: 90px;
+    width: 110px;
+    margin-left:96px ;
+    margin-top: 10px;
+  }
+  .rid{
+    margin-top: 10px;
+    margin-left: 75px;
+    color: #fff;
+  }
+  .rid:hover{
+    color: #ffc107;
+  }
+ 
+
+
+  /* ////////////////////////////////////////////////Blogs */
+
+  .blog{
+    border-width: 2px;
+      border-style: solid ;
+      color: #ffc107;
+      height: 460px;
+      width: 320px;
+      margin-left: 80px;
+      margin-top: 2px;
+      display: inline-block;
+     
+  }
+  
+  .head9{
+    margin-left: 540px;
+    margin-top: 10px;
+
+  }
+  
+  
+  #q{
+    height: 590px;
+      border-style: solid;
+      border-width: 2px;
+      background-color: black;
+      margin-top: 150px;
+  }
+  .pi{
+    background-image: url('https://media.licdn.com/dms/image/D4E12AQFkApnTA9vF1Q/article-cover_image-shrink_720_1280/0/1691045474189?e=2147483647&v=beta&t=fHUJHgMl9tNIefVanh20EP-bbTMCS-mfFnx3Yfcv4k4');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 100%;
+    border-radius: 0%;
+    margin-left: 1px;
+    margin-top: 1px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .pi:hover{
+    transform: scale(1.01);
+  
+  }
+  .e{
+    margin-left: 41px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 8px;
+  
+  }
+  .pa{
+    margin-left: 25px;
+    color: #fff; 
+    margin-top: 2px;
+  }
+  .price{
+    margin-left: 96px;
+    color: #fff;
+    margin-top: 1px;
+
+  }
+
+
+  /* ///////////////////////////////////////             Contact// */
+  body {
+    background-color: black; /* Set background color to black for the entire page */
+    color: white; /* Set text color to white */
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto; /* Center the container and add margin */
+    max-width: 600px; /* Limit the width of the container */
+    margin-top: -1px;
+  }
+  .info{
+    font-size: 30px;
+    margin-left: -050px;
+    color: #fcab08;
+  }
+
+  .map{
+    margin-left: -560px;
+    margin-top: -385px;
+  }
+  
+  .contact-info {
+    width: 100%; /* Set the width to 100% */
+    padding: 20px; /* Add padding */
+    background-color: black; /* Set background color to black */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    font-size: 38px; /* Increase font size for "Contact Us" */
+    color: white; /* Set color to white */
+    margin-bottom: 10px;
+    margin-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .contact-info p {
+    font-size: 18px; /* Increase font size */
+    color: white; /* Set color to white */
+    margin-bottom: 5px;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form */
+    margin-left: 480px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Increase margin bottom */
+  }
+  
+  label {
+    display: block;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 18px; /* Increase font size for labels */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px; /* Increase padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    font-size: 16px; /* Increase font size for inputs */
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 8px 16px; /* Decrease padding */
+    margin-top: 45px; /* Add top margin */
+    background-color: #ffc107; /* Set button color to orange */
+    color: rgb(8, 8, 8);
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 120px;
+    font-size: 20px; /* Increase font size */
+  }
+  
+  .submit-btn:hover {
+    background-color: #ff6347; /* Darken button color on hover */
+  }
+
+
+  /* /////////////////////////////////////////Footer/////////////////// */
+
+  .footer {
+    background-color: #333; /* Background color of the footer */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .social-circle {
+    display: inline-block;
+    margin-right: 20px; /* Add space between circles */
+  }
+  
+  .social-circle:last-child {
+    margin-right: 0; /* Remove margin from the last circle */
+  }
+  
+  .social-circle a {
+    display: block;
+    width: 50px; /* Diameter of the circle */
+    height: 50px;
+    border: 2px solid #ffc107; /* Yellow border */
+    border-radius: 50%; /* Make it a circle */
+    line-height: 50px; /* Center the icon vertically */
+    font-size: 24px; /* Size of the icon */
+    text-align: center;
+    color: #fcab08; /* Set icon color */
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .social-circle:hover a {
+    background-color: #ffc107; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+  }
+  
+  .footer-links {
+    margin-top: 40px; /* Add space between circles and links */
+    text-align: center; /* Center the links */
+  }
+  .box{
+    margin-top: 35px;
+  }
+  
+  .footer-links .link-box {
+    display: inline-block; /* Display link boxes inline */
+    width: 90px; /* Adjust width of each box */
+    margin-right: 40px; /* Add space between boxes */
+  }
+  
+  .footer-links .link-box:last-child {
+    margin-right: 0; /* Remove margin from the last link box */
+  }
+  
+  .footer-links a {
+    display: block;
+    padding: 20px;
+    background-color: #0a0a0a;
+    color:#f1f1ee; /* Text color */
+    border-radius: 5px;
+    margin-top: 25px; /* Add space above each link */
+    margin-bottom: 15px; /* Add space below each link */
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* Adjust styles for each link */
+  #se7, #se8, #se9, #se10, #se11, #se12 {
+    padding: 10px;
+    background-color: #0a0a0a; /* Black background color */
+    color: #ffc107; /* White text color */
+    border: 2px solid #ffc107; /* Yellow border */
+    border-radius: 7px;
+    width: 90px;
+    margin: 15px;
+    display: inline-block; /* Ensure links are displayed inline */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease;
+  }
+  
+  #se7:hover, #se8:hover, #se9:hover, #se10:hover, #se11:hover, #se12:hover {
+    background-color: #ffc107; /* Change background color on hover */
+    color: #0a0a0a; /* Change text color on hover */
+  }
+/* App.css///////////////////////////////////////////Menu */
+
+/* Style for the shopping button */
+.shopping {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:575px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+/* Style for the shopping cart */
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background-color:#ffc107 ;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the close button in the shopping cart */
+.closeShopping {
+  background-color: black;
+  border: none;
+  color: #ffc107;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Style for the list of items in the shopping cart */
+.listCard {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for each item in the shopping cart */
+.listCard li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color:black;
+}
+
+/* Style for the item image in the shopping cart */
+.listCard li img {
+  width: 50px;
+  height: auto;
+}
+
+/* Style for the buttons to change quantity in the shopping cart */
+.listCard li button {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Style for the total price and total items in the shopping cart */
+.total {
+  margin-top: 20px;
+  font-weight: bold;
+  color:black;
+}
+
+.quantity {
+  font-style: italic;
+}
+
+/* Style for the list of products */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  color:black;
+}
+
+/* Style for each product item */
+.item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color:#ffc107;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+/* Style for the product image */
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Style for the product title and price */
+.title,
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style for the "Add To Cart" button */
+.item button {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+  
